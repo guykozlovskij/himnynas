@@ -59,20 +59,21 @@ h4 {
 }
 
 .verse{
-
-  padding-bottom: 15px;
+  padding-bottom: 20px;
+  margin: 0px;
 }
 
 .chorus {
   font-style: italic;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
   position: relative;
   left: 15px;
+  margin: 0px;
 }
 
 .back-button {
   font-size: 25px;
-  padding-bottom: 45px;
+  margin-bottom: 45px;
 }
 
 
