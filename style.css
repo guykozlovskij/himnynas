@@ -2,10 +2,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-size: 20px;
-  padding-left: 15px;
-  padding-right: 15px;
   padding-top: 25px;
   padding-bottom: 50px;
 }
@@ -27,16 +25,24 @@ h1 {
 }
 
 #hymn-list {
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-padding-left: 5px;
-padding-right: 5px;
-max-width: 600px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 50px;
+  max-width: 600px;
 }
 
-.hymn-no{
+ol {
+  /* text-align: center; */
+  /* list-style-position: inside; */
+  /* padding: 0px; */
+}
+
+.hymn-no {
+
   font-size: 25px;
   text-align: center;
   border: 1px solid;
@@ -47,6 +53,8 @@ max-width: 600px;
 }
 
 .hymn {
+  padding-left: 15px;
+  padding-right: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -58,24 +66,58 @@ h4 {
   text-align: center;
 }
 
-.verse{
+.verse {
   padding-bottom: 20px;
   margin: 0px;
-  
+
 }
 
 .chorus {
+
   font-style: italic;
   padding-bottom: 20px;
   position: relative;
   left: 10px;
-  /* padding-right: 15px; */
+  padding-right: 10px;
   margin: 0px;
 }
 
 .back-button {
   font-size: 25px;
   margin-bottom: 45px;
+
 }
 
+#new-hymns-button {
+  font-size: 25px;
+  text-align: center;
+  border: 1px solid;
+  margin-top: 5px;
+  width: 45px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 
+#new-hymns-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#new-hymns-list {
+  padding-top: 50px;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.new-hymn {
+  border: 1px solid;
+  color: rgb(63, 63, 220);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
