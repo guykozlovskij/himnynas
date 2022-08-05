@@ -107,6 +107,8 @@ h4 {
 }
 
 #new-hymns-list {
+  display: flex;
+  flex-direction: column;
   padding-top: 50px;
   font-size: 20px;
   text-align: center;
@@ -117,6 +119,7 @@ h4 {
   border: 1px solid;
   color: rgb(63, 63, 220);
   padding-top: 10px;
+  margin-bottom: 30px;
   padding-bottom: 10px;
   padding-left: 15px;
   padding-right: 15px;
