@@ -6,11 +6,13 @@ body {
   font-size: 20px;
   padding-top: 25px;
   padding-bottom: 50px;
+  background-color: rgb(246, 239, 225);
+  color: rgb(34, 33, 31);
 }
 
 a {
   text-decoration: none;
-  color: rgb(63, 63, 220);
+  color: rgb(52, 90, 170);
 }
 
 #home-page {
@@ -47,6 +49,7 @@ ol {
   font-size: 25px;
   text-align: center;
   border: 1px solid;
+  border-radius: 5px;
   margin: 5px;
   width: 45px;
   padding-top: 10px;
@@ -92,7 +95,7 @@ h4 {
 #new-hymns-button {
   font-size: 25px;
   text-align: center;
-  border: 1px solid;
+  /* border: 1px solid; */
   margin-top: 10px;
   width: 45px;
   padding-top: 10px;
