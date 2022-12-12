@@ -7,12 +7,12 @@ body {
   padding-top: 25px;
   padding-bottom: 50px;
   background-color: rgb(246, 239, 225);
-  /* color: black; */
+  color: #333;
 }
 
 a {
   text-decoration: none;
-  color: rgb(19, 82, 219);
+  color: rgb(43, 100, 222);
 }
 
 #home-page {
@@ -45,7 +45,7 @@ ol {
 }
 
 .hymn-no {
-  color: rgb(19, 82, 219);
+  color: rgb(43, 100, 222);
   background-color: rgb(225, 229, 236);
   font-size: 25px;
   text-align: center;
