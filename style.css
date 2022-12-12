@@ -7,12 +7,12 @@ body {
   padding-top: 25px;
   padding-bottom: 50px;
   background-color: rgb(246, 239, 225);
-  color: rgb(34, 33, 31);
+  /* color: black; */
 }
 
 a {
   text-decoration: none;
-  color: rgb(42, 89, 190);
+  color: rgb(19, 82, 219);
 }
 
 #home-page {
@@ -45,7 +45,7 @@ ol {
 }
 
 .hymn-no {
-  color: rgb(42, 89, 190);
+  color: rgb(19, 82, 219);
   background-color: rgb(225, 229, 236);
   font-size: 25px;
   text-align: center;
@@ -126,7 +126,7 @@ h4 {
 
 .new-hymn {
   border: 1px solid;
-  color: rgb(42, 89, 190);
+  color: rgb(19, 82, 219);
   background-color: rgb(225, 229, 236);
   border-radius: 5px;
   padding-top: 10px;
