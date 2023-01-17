@@ -127,6 +127,7 @@ h4 {
 .new-hymn {
   border: 1px solid;
   color: rgb(19, 82, 219);
+  text-align: left;
   background-color: rgb(225, 229, 236);
   border-radius: 5px;
   padding-top: 10px;
