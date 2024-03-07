@@ -4,4 +4,4 @@ I created this website within a week to provide easy access to hymns for a Chris
 
 The original website can be found here -> [himnynas.vercel.app](https://himnynas.vercel.app/)
 
-The PWA followup -> [himnynas.com](https:/himnynas.com)
+The PWA followup -> [himnynas.com](https://github.com/guykozlovskij/hymnal-v2)
